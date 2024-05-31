@@ -1,0 +1,23 @@
+body{
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=f85f01&c2=082292&gt=l&gd=dtr
+*/
+font-family: 'Montserrat', sans-serif;
+background: #F85F01;
+background: linear-gradient(225deg, #F85F01, #082292);
+}
+
+.img-padrao{
+    max-width: 85%;
+    max-height: 600px;
+}
+.logowhats{
+    max-width: 120px;
+    position: fixed;
+    margin-left: 5fr;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+}
+
