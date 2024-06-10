@@ -5,12 +5,10 @@ body{
 */
 font-family: 'Montserrat', sans-serif;
 background: #F85F01;
-background: linear-gradient(225deg, #F85F01, #082292);
+background: linear-gradient(225deg, #ffe417, #f13818);
 }
-
-.img-padrao{
-    max-width: 85%;
-    max-height: 600px;
+.menu-suspenso{
+    text-decoration:wavy;
 }
 .logowhats{
     max-width: 120px;
@@ -19,5 +17,13 @@ background: linear-gradient(225deg, #F85F01, #082292);
     top: 50%;
     left: 0px;
     width: 100%;
+}
+.containerlogo{
+    background-color: ghostwhite;
+    text-align: center;
+}
+.imagelogo{
+    max-width: 250px;
+    text-align: center;
 }
 

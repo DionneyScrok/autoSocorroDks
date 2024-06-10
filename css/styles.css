@@ -2,18 +2,29 @@
 
 .hero-section {
     /* background: url('https://via.placeholder.com/1920x1080') no-repeat center center; */
-    background-image: url('../image/fnd3d.png');
-    background-size: cover;
+    background-color: ghostwhite;
+    background-image: url("../image/banners/top2.png");
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     text-align: center;
 }
 @font-face {
     font-family: optimus;
     src: url(/fonts/Prompt/Prompt-Italic.ttf);
+  }
+  #services{
+    background-color: ghostwhite;
+  }
+  .divlink{
+    border-style: solid;
+    color: blue;
+    width: 100%;
+    height: 100%;
   }
 
 .display-4{
@@ -41,7 +52,6 @@
 
 .lead{
     text-align: center;
-    margin-top: 29%;
 }
 
 .service-box {margin-top: 20px;
@@ -58,6 +68,3 @@
     width: 100%;
 }
 
-footer {
-    background: #343a40;
-}
