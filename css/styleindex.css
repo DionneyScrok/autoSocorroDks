@@ -4,14 +4,14 @@ body{
 * Gradient link: https://www.css-gradient.com/?c1=f85f01&c2=082292&gt=l&gd=dtr
 */
 font-family: 'Montserrat', sans-serif;
-background: #F85F01;
-background: linear-gradient(225deg, #ffe417, #f13818);
+background: ghostwhite;
+
 }
 .menu-suspenso{
     text-decoration:wavy;
 }
 .logowhats{
-    max-width: 120px;
+    max-width: 80px;
     position: fixed;
     margin-left: 5fr;
     top: 50%;
@@ -21,6 +21,7 @@ background: linear-gradient(225deg, #ffe417, #f13818);
 .containerlogo{
     background-color: ghostwhite;
     text-align: center;
+    margin-top: -30px;
 }
 .imagelogo{
     max-width: 250px;
