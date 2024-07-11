@@ -3,7 +3,7 @@
 .hero-section {
     /* background: url('https://via.placeholder.com/1920x1080') no-repeat center center; */
     background-color: ghostwhite;
-    background-image: url("../image/banners/top2.png");
+    
 
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -12,6 +12,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.bannerFotoPrincipal{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 10px;
 }
 @font-face {
     font-family: optimus;
