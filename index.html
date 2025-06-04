@@ -9,7 +9,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styleindex.css">
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L32JWRTB5H">
     </script>
     <script>
@@ -18,7 +18,26 @@
         gtag('js', new Date());
 
         gtag('config', 'G-L32JWRTB5H');
-    </script>
+    </script> -->
+    <!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+    // Helper function to delay opening a URL until a gtag event is sent.
+    // Call it in response to an action that should navigate to a URL.
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'ads_conversion_Clique_no_site_1', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        // <event_parameters>
+      });
+      return false;
+    }
+  </script>
+  
 </head>
 
 <body>
