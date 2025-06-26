@@ -9,6 +9,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styleindex.css">
+    <link rel="stylesheet" href="carrossel-servicos.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L32JWRTB5H">
     </script>
@@ -18,27 +19,27 @@
         gtag('js', new Date());
 
         gtag('config', 'G-L32JWRTB5H');
-    </script> 
+    </script>
 
     <!-- Google tag (gtag.js) event - delayed navigation helper -->
-<script>
-    // Helper function to delay opening a URL until a gtag event is sent.
-    // Call it in response to an action that should navigate to a URL.
-    function gtagSendEvent(url) {
-      var callback = function () {
-        if (typeof url === 'string') {
-          window.location = url;
+    <script>
+        // Helper function to delay opening a URL until a gtag event is sent.
+        // Call it in response to an action that should navigate to a URL.
+        function gtagSendEvent(url) {
+            var callback = function () {
+                if (typeof url === 'string') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'ads_conversion_Clique_no_site_1', {
+                'event_callback': callback,
+                'event_timeout': 2000,
+                // <event_parameters>
+            });
+            return false;
         }
-      };
-      gtag('event', 'ads_conversion_Clique_no_site_1', {
-        'event_callback': callback,
-        'event_timeout': 2000,
-        // <event_parameters>
-      });
-      return false;
-    }
-  </script>
-  
+    </script>
+
 </head>
 
 <body>
@@ -65,10 +66,10 @@
     <div class="containerlogo"> <a
             href="https://api.whatsapp.com/send?phone=5547988771332&text=Precisando%20de%20ajuda?%0APara%20facilitar%20o%20atendimento,%20Informe:%0AVeiculo:%20%0ALocal%20de%20origem(local%20do%20ve%C3%ADculo):%0ALocal%20de%20destino%20(para%20onde%20o%20ve%C3%ADculo%20vai):%0A%0AAssim%20podemos%20atende-lo%20muito%20mais%20r%C3%A1pido!!!"
             onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5547988771332&text=Precisando%20de%20ajuda?%0APara%20facilitar%20o%20atendimento,%20Informe:%0AVeiculo:%20%0ALocal%20de%20origem(local%20do%20ve%C3%ADculo):%0ALocal%20de%20destino%20(para%20onde%20o%20ve%C3%ADculo%20vai):%0A%0AAssim%20podemos%20atende-lo%20muito%20mais%20r%C3%A1pido!!!');"></a>
-            <img src="./image/logo/20.png" class="imagelogo">
+        <img src="./image/logo/20.png" class="imagelogo">
         </a>
     </div>
-
+    <h1 class="title-primary">Guincho 24h em Itapema</h1>
     <hr>
 
     <div class="container contato">
@@ -81,11 +82,10 @@
                     <p class="text-center"><img class="contatowhats"
                             src="./image/icon/licagacao2icon-removebg-preview.png">Ligar (47) 98877-1332</p>
                 </a>
-                <a 
-                    href="https://api.whatsapp.com/send?phone=5547988771332&text=Precisando%20de%20ajuda?%0APara%20facilitar%20o%20atendimento,%20Informe:%0AVeiculo:%20%0ALocal%20de%20origem(local%20do%20ve%C3%ADculo):%0ALocal%20de%20destino%20(para%20onde%20o%20ve%C3%ADculo%20vai):%0A%0AAssim%20podemos%20atende-lo%20muito%20mais%20r%C3%A1pido!!!"
+                <a href="https://api.whatsapp.com/send?phone=5547988771332&text=Precisando%20de%20ajuda?%0APara%20facilitar%20o%20atendimento,%20Informe:%0AVeiculo:%20%0ALocal%20de%20origem(local%20do%20ve%C3%ADculo):%0ALocal%20de%20destino%20(para%20onde%20o%20ve%C3%ADculo%20vai):%0A%0AAssim%20podemos%20atende-lo%20muito%20mais%20r%C3%A1pido!!!"
                     onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5547988771332&text=Precisando%20de%20ajuda?%0APara%20facilitar%20o%20atendimento,%20Informe:%0AVeiculo:%20%0ALocal%20de%20origem(local%20do%20ve%C3%ADculo):%0ALocal%20de%20destino%20(para%20onde%20o%20ve%C3%ADculo%20vai):%0A%0AAssim%20podemos%20atende-lo%20muito%20mais%20r%C3%A1pido!!!');">
                     <p class="text-center"><img class="contatowhats" src="./image/logowhats-removebg-preview.png">
-                        Enviar WhatsApp</p>
+                        Chamar no WhatsApp</p>
                 </a>
                 <a href="mailto:autosocorro.dks@gmail.com">
                     <p class="text-center"><img class="contatowhats" src="./image/icon/emailicon2-removebg-preview.png">
@@ -94,12 +94,10 @@
             </div>
         </div>
     </div>
+
     <hr>
-
-
     <header class="hero-section text-center text-black headerclass">
-        <img class="bannerFotoPrincipal" src="./image/banners/3.png">
-
+        <!-- <img class="bannerFotoPrincipal" src="./image/banners/fotobanner1.png"> -->
     </header>
 
 
@@ -107,11 +105,14 @@
     <!-- Services Section -->
     <section id="services" class="py-5">
         <div class="container">
-
+            <hr>
+            <h2>SOS Reboque 24 Horas</h2>
+            
             <p class="lead">Certamente! Estamos sempre prontos para ajudá-lo em qualquer emergência na estrada, a
                 qualquer hora e em qualquer lugar. Nosso serviço de assistência rápida para troca de pneus e
                 transferência de carga de bateria está disponível para garantir sua segurança e tranquilidade onde quer
                 que você esteja.</p>
+                <hr>
             <h2 class="text-center">Nossos Serviços</h2>
             <div class="row">
                 <div class="col-md-4 text-center">
@@ -134,14 +135,16 @@
                     <div class="service-box mt-5 mx-auto">
                         <i class="fas fa-truck-pickup fa-4x mb-3 text-primary"></i>
                         <h3 class="mb-3">Cegonhas</h3>
-                        <p class="text-black mb-0">Serviço de transporte Inter-Estadual para todo Brasil. Cegonha toda semana com carga assegurada para sua tranquilidade.</p>
+                        <p class="text-black mb-0">Serviço de transporte Inter-Estadual para todo Brasil. Cegonha toda
+                            semana com carga assegurada para sua tranquilidade.</p>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="service-box mt-5 mx-auto">
                         <i class="fas fa-truck-pickup fa-4x mb-3 text-primary"></i>
                         <h3 class="mb-3">Patio Seguro</h3>
-                        <p class="text-black mb-0">Serviço de patio com toda segurança para seu veiculo em quanto aguarda o transporte.</p>
+                        <p class="text-black mb-0">Serviço de patio com toda segurança para seu veiculo em quanto
+                            aguarda o transporte.</p>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
@@ -179,47 +182,65 @@
                 </div>
             </div>
         </div>
-
-        <!-- Session Banner -->
-        <section id="banner">
-            <img class="bannerfooter img-fluid" src="./image/banners/guinchoAqui-banner.png">
-        </section>
+        <hr>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
+    
+    <!-- Galeria de Serviços-->
+    <section id="galeria-servicos">
         <div class="container">
-            <h2 class="text-dark">Cadastro</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <form>
-                        <div class="form-group">
-                            <label class="text-dark" for="name">Nome</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="text-dark" for="email">Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="text-dark" for="message">Mensagem</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
-                    </form>
+            <h2>Imagens Reais dos Nossos Serviços</h2>
+            <p>Atendimentos realizados em Itapema, Porto Belo, Tijucas e Balneário Camboriú.</p>
+
+            <div class="carrossel">
+                <div class="carrossel-track">
+                    <div class="imagem"><img src="image/carrossel/landrover_guiincho.jpg" alt="Guincho resgatando carro"></div>
+                    <div class="imagem"><img src="image/carrossel/opala_no_caminhao.png" alt="Caminhão guinchado em Itapema"></div>
+                    <div class="imagem"><img src="image/carrossel/hilux_guincho.jpg" alt="Motorhome transportado com segurança">
+                    </div>
+                    <div class="imagem"><img src="image/carrossel/porsche_no_guincho.jpg" alt="Atendimento noturno BR-101"></div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Botao Whats-->
     <a
         href="https://api.whatsapp.com/send?phone=5547988771332&text=Precisando%20de%20ajuda?%0APara%20facilitar%20o%20atendimento,%20Informe:%0AVeiculo:%20%0ALocal%20de%20origem(local%20do%20ve%C3%ADculo):%0ALocal%20de%20destino%20(para%20onde%20o%20ve%C3%ADculo%20vai):%0A%0AAssim%20podemos%20atende-lo%20muito%20mais%20r%C3%A1pido!!!">
         <img src="./image/logowhats-removebg-preview.png" class="logowhats">
 
     </a>
+    
+    <section id="area-atuacao">
+        <div class="container">
+            <h2>Área de Atuação</h2>
+            <p>
+                Guincho 24 h nas principais cidades do Litoral Norte de SC:
+                <strong>Itapema</strong>, <strong>Porto Belo</strong>, <strong>Tijucas</strong>, <strong>Balneário
+                    Camboriú</strong>.
+            </p>
+            <div class="botoes-cidades">
+                <span>Itapema</span>
+                <span>Porto Belo</span>
+                <span>Tijucas</span>
+                <span>Balneário Camboriú</span>
+                <span>BR‑101 - Região</span>
+            </div>
+
+            <div class="mapa">
+                <!-- Cole aqui o iframe gerado pelo My Maps -->
+                <iframe src="https://www.google.com/maps/d/embed?mid=1vfEWBSVMT5JnaMB0CU2wnwpBTMMxt74&ehbc=2E312F"
+                    width="100%" height="480"></iframe>
+            </div>
+
+            <p class="info-extra">
+                Entre em contato via WhatsApp para verificar atendimento em cidades próximas.
+            </p>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-black text-center py-3">
+        <p class="mb-0 text-white"> Guincho 24h em Itapema, SC e Região</p>
         <p class="mb-0 text-white">&copy; 2024 - Guincho Aqui - Itapema - SC.</p>
         <p class="mb-0 text-white"> Todos os direitos reservados.</p>
     </footer>
