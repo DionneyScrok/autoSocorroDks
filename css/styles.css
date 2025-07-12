@@ -13,14 +13,7 @@ p{
     justify-content: center;
     text-align: center;
 }
-.bannerFotoPrincipal{
-    max-width: 100%;
-    max-height: 100%;
-    padding-top: 10px;
-}
-.contato{
-    background-color: ghostwhite;
-}
+
 .contatowhats{
     max-width: 25px;
     max-height: 25px;
@@ -38,11 +31,10 @@ p{
     width: 100%;
     height: 100%;
   }
+  .meu-navstyle{    
+  background-color: #1e88e5 !important;
+  }
 
-.display-4{
-
-    
-}
 .titulos{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
